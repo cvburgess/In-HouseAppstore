@@ -13,6 +13,22 @@
 		308B4B9C15E5867B0062D3AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 308B4B9A15E5867B0062D3AA /* InfoPlist.strings */; };
 		308B4B9E15E5867B0062D3AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 308B4B9D15E5867B0062D3AA /* main.m */; };
 		308B4BA215E5867B0062D3AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 308B4BA115E5867B0062D3AA /* AppDelegate.m */; };
+		308B4BB315E5885E0062D3AA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BA915E5885E0062D3AA /* MainStoryboard.storyboard */; };
+		308B4BB415E5885E0062D3AA /* Storyboard~iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BAA15E5885E0062D3AA /* Storyboard~iPhone.storyboard */; };
+		308B4BB515E5885E0062D3AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308B4BAC15E5885E0062D3AA /* ViewController.m */; };
+		308B4BB615E5885E0062D3AA /* downloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 308B4BAE15E5885E0062D3AA /* downloadCell.m */; };
+		308B4BC715E588E70062D3AA /* iPhone_download.png in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BBB15E588E70062D3AA /* iPhone_download.png */; };
+		308B4BC815E588E70062D3AA /* iPhone_download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BBC15E588E70062D3AA /* iPhone_download@2x.png */; };
+		308B4BC915E588E70062D3AA /* iPhone_reinstall.png in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BBD15E588E70062D3AA /* iPhone_reinstall.png */; };
+		308B4BCA15E588E70062D3AA /* iPhone_reinstall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BBE15E588E70062D3AA /* iPhone_reinstall@2x.png */; };
+		308B4BCB15E588E70062D3AA /* iPhone_update.png in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BBF15E588E70062D3AA /* iPhone_update.png */; };
+		308B4BCC15E588E70062D3AA /* iPhone_update@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BC015E588E70062D3AA /* iPhone_update@2x.png */; };
+		308B4BCD15E588E70062D3AA /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BC115E588E70062D3AA /* download.png */; };
+		308B4BCE15E588E70062D3AA /* download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BC215E588E70062D3AA /* download@2x.png */; };
+		308B4BCF15E588E70062D3AA /* reinstall.png in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BC315E588E70062D3AA /* reinstall.png */; };
+		308B4BD015E588E70062D3AA /* reinstall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BC415E588E70062D3AA /* reinstall@2x.png */; };
+		308B4BD115E588E70062D3AA /* update.png in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BC515E588E70062D3AA /* update.png */; };
+		308B4BD215E588E70062D3AA /* update@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308B4BC615E588E70062D3AA /* update@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,24 @@
 		308B4B9F15E5867B0062D3AA /* In-HouseAppstore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "In-HouseAppstore-Prefix.pch"; sourceTree = "<group>"; };
 		308B4BA015E5867B0062D3AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		308B4BA115E5867B0062D3AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		308B4BA915E5885E0062D3AA /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		308B4BAA15E5885E0062D3AA /* Storyboard~iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Storyboard~iPhone.storyboard"; sourceTree = "<group>"; };
+		308B4BAB15E5885E0062D3AA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		308B4BAC15E5885E0062D3AA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		308B4BAD15E5885E0062D3AA /* downloadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = downloadCell.h; sourceTree = "<group>"; };
+		308B4BAE15E5885E0062D3AA /* downloadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = downloadCell.m; sourceTree = "<group>"; };
+		308B4BBB15E588E70062D3AA /* iPhone_download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_download.png; sourceTree = "<group>"; };
+		308B4BBC15E588E70062D3AA /* iPhone_download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone_download@2x.png"; sourceTree = "<group>"; };
+		308B4BBD15E588E70062D3AA /* iPhone_reinstall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_reinstall.png; sourceTree = "<group>"; };
+		308B4BBE15E588E70062D3AA /* iPhone_reinstall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone_reinstall@2x.png"; sourceTree = "<group>"; };
+		308B4BBF15E588E70062D3AA /* iPhone_update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_update.png; sourceTree = "<group>"; };
+		308B4BC015E588E70062D3AA /* iPhone_update@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone_update@2x.png"; sourceTree = "<group>"; };
+		308B4BC115E588E70062D3AA /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		308B4BC215E588E70062D3AA /* download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download@2x.png"; sourceTree = "<group>"; };
+		308B4BC315E588E70062D3AA /* reinstall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reinstall.png; sourceTree = "<group>"; };
+		308B4BC415E588E70062D3AA /* reinstall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reinstall@2x.png"; sourceTree = "<group>"; };
+		308B4BC515E588E70062D3AA /* update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = update.png; sourceTree = "<group>"; };
+		308B4BC615E588E70062D3AA /* update@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "update@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +108,10 @@
 			children = (
 				308B4BA015E5867B0062D3AA /* AppDelegate.h */,
 				308B4BA115E5867B0062D3AA /* AppDelegate.m */,
+				308B4BA915E5885E0062D3AA /* MainStoryboard.storyboard */,
+				308B4BAA15E5885E0062D3AA /* Storyboard~iPhone.storyboard */,
+				308B4BAB15E5885E0062D3AA /* ViewController.h */,
+				308B4BAC15E5885E0062D3AA /* ViewController.m */,
 				308B4B9815E5867B0062D3AA /* Supporting Files */,
 			);
 			path = "In-HouseAppstore";
@@ -82,12 +120,58 @@
 		308B4B9815E5867B0062D3AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				308B4BD615E589160062D3AA /* Cells */,
+				308B4BD315E588EE0062D3AA /* Graphics */,
 				308B4B9915E5867B0062D3AA /* In-HouseAppstore-Info.plist */,
 				308B4B9A15E5867B0062D3AA /* InfoPlist.strings */,
 				308B4B9D15E5867B0062D3AA /* main.m */,
 				308B4B9F15E5867B0062D3AA /* In-HouseAppstore-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		308B4BD315E588EE0062D3AA /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				308B4BD415E588FC0062D3AA /* iPhone */,
+				308B4BD515E589060062D3AA /* iPad */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		308B4BD415E588FC0062D3AA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				308B4BBB15E588E70062D3AA /* iPhone_download.png */,
+				308B4BBC15E588E70062D3AA /* iPhone_download@2x.png */,
+				308B4BBD15E588E70062D3AA /* iPhone_reinstall.png */,
+				308B4BBE15E588E70062D3AA /* iPhone_reinstall@2x.png */,
+				308B4BBF15E588E70062D3AA /* iPhone_update.png */,
+				308B4BC015E588E70062D3AA /* iPhone_update@2x.png */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		308B4BD515E589060062D3AA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				308B4BC115E588E70062D3AA /* download.png */,
+				308B4BC215E588E70062D3AA /* download@2x.png */,
+				308B4BC315E588E70062D3AA /* reinstall.png */,
+				308B4BC415E588E70062D3AA /* reinstall@2x.png */,
+				308B4BC515E588E70062D3AA /* update.png */,
+				308B4BC615E588E70062D3AA /* update@2x.png */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		308B4BD615E589160062D3AA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				308B4BAD15E5885E0062D3AA /* downloadCell.h */,
+				308B4BAE15E5885E0062D3AA /* downloadCell.m */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 308B4BA515E5867B0062D3AA /* Build configuration list for PBXNativeTarget "In-HouseAppstore" */;
 			buildPhases = (
+				308B4BD715E58E930062D3AA /* ShellScript */,
 				308B4B8915E5867B0062D3AA /* Sources */,
 				308B4B8A15E5867B0062D3AA /* Frameworks */,
 				308B4B8B15E5867B0062D3AA /* Resources */,
@@ -142,10 +227,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				308B4B9C15E5867B0062D3AA /* InfoPlist.strings in Resources */,
+				308B4BB315E5885E0062D3AA /* MainStoryboard.storyboard in Resources */,
+				308B4BB415E5885E0062D3AA /* Storyboard~iPhone.storyboard in Resources */,
+				308B4BC715E588E70062D3AA /* iPhone_download.png in Resources */,
+				308B4BC815E588E70062D3AA /* iPhone_download@2x.png in Resources */,
+				308B4BC915E588E70062D3AA /* iPhone_reinstall.png in Resources */,
+				308B4BCA15E588E70062D3AA /* iPhone_reinstall@2x.png in Resources */,
+				308B4BCB15E588E70062D3AA /* iPhone_update.png in Resources */,
+				308B4BCC15E588E70062D3AA /* iPhone_update@2x.png in Resources */,
+				308B4BCD15E588E70062D3AA /* download.png in Resources */,
+				308B4BCE15E588E70062D3AA /* download@2x.png in Resources */,
+				308B4BCF15E588E70062D3AA /* reinstall.png in Resources */,
+				308B4BD015E588E70062D3AA /* reinstall@2x.png in Resources */,
+				308B4BD115E588E70062D3AA /* update.png in Resources */,
+				308B4BD215E588E70062D3AA /* update@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		308B4BD715E58E930062D3AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Auto Increment Version Script\nbuildPlist=$INFOPLIST_FILE\necho $buildPlist\nCFSVString=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"$buildPlist\")\nCFBundleVersion=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$buildPlist\")\nBUILD_NR=${CFBundleVersion##*.}\n    BUILD_NR=$(($BUILD_NR + 1))\n    #echo $BUILD_NR\n    CFBundleVersion=$BUILD_NR\n    #echo $CFBundleVersion\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $CFBundleVersion\" \"$buildPlist\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		308B4B8915E5867B0062D3AA /* Sources */ = {
@@ -154,6 +269,8 @@
 			files = (
 				308B4B9E15E5867B0062D3AA /* main.m in Sources */,
 				308B4BA215E5867B0062D3AA /* AppDelegate.m in Sources */,
+				308B4BB515E5885E0062D3AA /* ViewController.m in Sources */,
+				308B4BB615E5885E0062D3AA /* downloadCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
