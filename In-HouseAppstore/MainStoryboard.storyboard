@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="WSt-3R-4E4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="12A269" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="WSt-3R-4E4">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
-        <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
     </dependencies>
     <scenes>
         <!--View Controller - Paradigm Learning Inc.-->
@@ -54,7 +53,7 @@
                                                     <rect key="frame" x="102" y="15" width="724" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="Gh9-a1-Wm8">
@@ -63,7 +62,7 @@
                                                     <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                                     <inset key="contentInset" minX="-8" minY="-4" maxX="0.0" maxY="0.0"/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -83,128 +82,6 @@
                                             <outlet property="manifest" destination="jn8-b5-sLQ" id="an2-DO-TVS"/>
                                             <outlet property="subTxt" destination="Gh9-a1-Wm8" id="z3O-zD-Ape"/>
                                             <outlet property="titleTxt" destination="zID-Fm-vzd" id="9Ht-PZ-zvL"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="updateCell" rowHeight="92" id="Fto-lU-OpH" customClass="updateCell">
-                                        <rect key="frame" x="0.0" y="114" width="983" height="92"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="983" height="91"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vrQ-do-XP3">
-                                                    <rect key="frame" x="858" y="36" width="100" height="20"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                    <state key="normal" image="update.png">
-                                                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <state key="highlighted">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="update:" destination="Fto-lU-OpH" eventType="touchUpInside" id="jYK-sf-yiP"/>
-                                                    </connections>
-                                                </button>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="Vwh-6O-rtg">
-                                                    <rect key="frame" x="10" y="10" width="72" height="72"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="OHZ-9R-Cbc">
-                                                    <rect key="frame" x="102" y="15" width="724" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="raX-iU-XhC">
-                                                    <rect key="frame" x="102" y="39" width="724" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                                    <inset key="contentInset" minX="-8" minY="-4" maxX="0.0" maxY="0.0"/>
-                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                </textView>
-                                                <label hidden="YES" autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumFontSize="1" id="NKU-Ob-e7q">
-                                                    <rect key="frame" x="0.0" y="0.0" width="500" height="4"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <connections>
-                                            <outlet property="img" destination="Vwh-6O-rtg" id="P1W-05-9yO"/>
-                                            <outlet property="manifest" destination="NKU-Ob-e7q" id="c2n-Ao-me5"/>
-                                            <outlet property="subTxt" destination="raX-iU-XhC" id="pTR-2m-j1I"/>
-                                            <outlet property="titleTxt" destination="OHZ-9R-Cbc" id="7lA-IC-xEa"/>
-                                            <outlet property="updateBtn" destination="vrQ-do-XP3" id="fU3-Ix-Nrr"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="reinstallCell" rowHeight="92" id="E1t-hm-HBn" customClass="reinstallCell">
-                                        <rect key="frame" x="0.0" y="206" width="983" height="92"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="983" height="91"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="UtX-HI-ssa">
-                                                    <rect key="frame" x="858" y="36" width="100" height="20"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                    <state key="normal" image="reinstall.png">
-                                                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <state key="highlighted">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="reinstall:" destination="E1t-hm-HBn" eventType="touchUpInside" id="9pw-vq-cYh"/>
-                                                    </connections>
-                                                </button>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="hnS-rB-qLY">
-                                                    <rect key="frame" x="10" y="10" width="72" height="72"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="98A-hq-iqh">
-                                                    <rect key="frame" x="102" y="15" width="724" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="8lM-wg-aEE">
-                                                    <rect key="frame" x="102" y="39" width="724" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                                    <inset key="contentInset" minX="-8" minY="-4" maxX="0.0" maxY="0.0"/>
-                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                </textView>
-                                                <label hidden="YES" autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumFontSize="10" id="jdV-hl-g8f">
-                                                    <rect key="frame" x="0.0" y="0.0" width="500" height="4"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <connections>
-                                            <outlet property="img" destination="hnS-rB-qLY" id="yLW-DX-HQY"/>
-                                            <outlet property="manifest" destination="jdV-hl-g8f" id="YS0-PB-6vf"/>
-                                            <outlet property="reinstallBtn" destination="UtX-HI-ssa" id="n7Y-bP-b9d"/>
-                                            <outlet property="subTxt" destination="8lM-wg-aEE" id="tdw-t0-EyD"/>
-                                            <outlet property="titleTxt" destination="98A-hq-iqh" id="lr4-hT-xTH"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -250,8 +127,6 @@
     <resources>
         <image name="Default-Landscape~ipad.png" width="1024" height="748"/>
         <image name="download.png" width="100" height="20"/>
-        <image name="reinstall.png" width="100" height="20"/>
-        <image name="update.png" width="100" height="20"/>
     </resources>
     <classes>
         <class className="ViewController" superclassName="UIViewController">
@@ -264,33 +139,12 @@
         <class className="downloadCell" superclassName="UITableViewCell">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/downloadCell.h"/>
             <relationships>
-                <relationship kind="outlet" name="certBtn" candidateClass="UIButton"/>
+                <relationship kind="action" name="download:"/>
                 <relationship kind="outlet" name="downloadBtn" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="img" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="manifest" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="profile" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="subTxt" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="titleTxt" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="reinstallCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/reinstallCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="img" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="manifest" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="reinstallBtn" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="subTxt" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="titleTxt" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="updateCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/updateCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="img" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="manifest" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="subTxt" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="titleTxt" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="updateBtn" candidateClass="UIButton"/>
             </relationships>
         </class>
     </classes>

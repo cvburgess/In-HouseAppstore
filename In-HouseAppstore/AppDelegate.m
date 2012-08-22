@@ -35,7 +35,32 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    NSString *path = @"http://paradigmpresentations.com/apps/store.plist";
+    NSURL *url = [NSURL URLWithString:path];
+    
+    _storeData = [[NSDictionary alloc] initWithContentsOfURL:url];
+    NSMutableArray *mapps = [[NSMutableArray alloc] initWithArray:[_storeData objectForKey:@"apps"]];
+    
+    if (IS_IPAD)
+    {
+        for (int i=0; i<[mapps count]; i++) {
+            if ([[[mapps objectAtIndex:i] objectForKey:@"device"] isEqualToString:@"iPhone"]) {
+                [mapps removeObjectAtIndex:i];
+            }
+        }
+    }
+    else {
+        for (int i=0; i<[mapps count]; i++) {
+            if ([[[mapps objectAtIndex:i] objectForKey:@"device"] isEqualToString:@"iPad"]) {
+                [mapps removeObjectAtIndex:i];
+            }
+        }
+    }
+    
+    [self setApps:mapps];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"refreshView" object:nil];
+
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

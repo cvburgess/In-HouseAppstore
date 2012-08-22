@@ -88,33 +88,33 @@
     {
         if (IS_IPAD)
         {
-            [[cell downloadBtn] setImage:@"download.png" forState:UIControlStateNormal];
+            [[cell downloadBtn] setImage:[UIImage imageNamed:@"download.png"] forState:UIControlStateNormal];
         }
         else
         {
-            [[cell downloadBtn] setImage:@"iPhone_download.png" forState:UIControlStateNormal];
+            [[cell downloadBtn] setImage:[UIImage imageNamed:@"iPhone_download.png"] forState:UIControlStateNormal];
         }
     }
     else if ([[bIDs objectForKey:[app objectForKey:@"id"]] floatValue] < [[app objectForKey:@"bundle"] floatValue])
     {
         if (IS_IPAD)
         {
-            [[cell downloadBtn] setImage:@"update.png" forState:UIControlStateNormal];
+            [[cell downloadBtn] setImage:[UIImage imageNamed:@"update.png"] forState:UIControlStateNormal];
         }
         else
         {
-            [[cell downloadBtn] setImage:@"iPhone_update.png" forState:UIControlStateNormal];
+            [[cell downloadBtn] setImage:[UIImage imageNamed:@"iPhone_update.png"] forState:UIControlStateNormal];
         }
     }
     else if ([[bIDs objectForKey:[app objectForKey:@"id"]] floatValue] == [[app objectForKey:@"bundle"] floatValue])
     {
         if (IS_IPAD)
         {
-            [[cell downloadBtn] setImage:@"reinstall.png" forState:UIControlStateNormal];
+            [[cell downloadBtn] setImage:[UIImage imageNamed:@"reinstall.png"] forState:UIControlStateNormal];
         }
         else
         {
-            [[cell downloadBtn] setImage:@"iPhone_reinstall.png" forState:UIControlStateNormal];
+            [[cell downloadBtn] setImage:[UIImage imageNamed:@"iPhone_reinstall.png"] forState:UIControlStateNormal];
         }
     }
     else
@@ -128,7 +128,8 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section 
 {
     AppDelegate *appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
-	return [[appDelegate apps] count];
+	NSLog(@"%i", [[appDelegate apps] count]);
+    return [[appDelegate apps] count];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView 
