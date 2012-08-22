@@ -128,7 +128,6 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section 
 {
     AppDelegate *appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
-	NSLog(@"%i", [[appDelegate apps] count]);
     return [[appDelegate apps] count];
 }
 
