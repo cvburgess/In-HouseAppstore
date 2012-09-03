@@ -10,6 +10,7 @@
 #import "AppDelegate.h"
 
 #import "downloadCell.h"
+#import "FLImageView.h"
 
 //#import "UIImageView+WebCache.h"
 
@@ -79,8 +80,7 @@
     }
     
     NSURL *url = [NSURL URLWithString:imgPath];
-    
-    //[cell.img setImageWithURL:url placeholderImage:[UIImage imageNamed:@"gloss.png"]];
+    [[cell img] loadImageAtURL:url placeholderImage:nil];
     
     [cell setTag:[indexPath row]];
 

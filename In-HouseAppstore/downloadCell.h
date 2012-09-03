@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FLImageView.h"
 
 @interface downloadCell : UITableViewCell
 
@@ -14,7 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextView *subTxt;
 @property (weak, nonatomic) IBOutlet UILabel *titleTxt;
-@property (weak, nonatomic) IBOutlet UIImageView *img;
+@property (weak, nonatomic) IBOutlet FLImageView *img;
 
 @property (weak, nonatomic) IBOutlet UILabel *manifest;
 

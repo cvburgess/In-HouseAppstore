@@ -41,19 +41,26 @@
     _storeData = [[NSDictionary alloc] initWithContentsOfURL:url];
     NSMutableArray *mapps = [[NSMutableArray alloc] initWithArray:[_storeData objectForKey:@"apps"]];
     
+    NSString *deviceToRemove = @"";
     if (IS_IPAD)
     {
-        for (int i=0; i<[mapps count]; i++) {
-            if ([[[mapps objectAtIndex:i] objectForKey:@"device"] isEqualToString:@"iPhone"]) {
-                [mapps removeObjectAtIndex:i];
-            }
-        }
+        deviceToRemove = @"iPhone";
     }
-    else {
-        for (int i=0; i<[mapps count]; i++) {
-            if ([[[mapps objectAtIndex:i] objectForKey:@"device"] isEqualToString:@"iPad"]) {
-                [mapps removeObjectAtIndex:i];
-            }
+    else
+    {
+        deviceToRemove = @"iPad";
+    }
+    
+    int i = 0;
+    while (i<[mapps count])
+    {
+        if ([[[mapps objectAtIndex:i] objectForKey:@"device"] isEqualToString:deviceToRemove])
+        {
+            [mapps removeObjectAtIndex:i];
+        }
+        else
+        {
+            i++;
         }
     }
     

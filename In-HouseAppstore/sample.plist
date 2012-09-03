@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>apps</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>AppNameAsYouExportedItFromXcode</string>
+			<key>appName</key>
+			<string>App Name</string>
+			<key>description</key>
+			<string>A summary of your app&apos;s functionallity and features.</string>
+			<key>version</key>
+			<real>2.7</real>
+			<key>devices</key>
+			<string>universal/iPad/iPhone</string>
+		</dict>
+	</array>
+</dict>
+</plist>
