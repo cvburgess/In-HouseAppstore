@@ -2,12 +2,10 @@
 #### An easy solution for distributing apps with iOS Enterprise Developer Program
 
 ## Instructions
-1. Distribute your apps according to [Apple's Enterprise Distribution Guide][]
+1. Distribute your apps according to Apple's Enterprise Distribution Guide
 2. Upload a folder with the above's contents to your server (http://mysite.com/apps/myapp/)
 3. Point the code in the .xcodeproj to your server
 4. Distribute the In-House AppStore to anyone you want to have access to your apps via hyperlink
-
-	[Apple's Enterprise Distribution Guide][]: http://developer.apple.com/library/ios/#featuredarticles/FA_Wireless_Enterprise_App_Distribution/Introduction/Introduction.html
 
 ## Example Screenshot
 
