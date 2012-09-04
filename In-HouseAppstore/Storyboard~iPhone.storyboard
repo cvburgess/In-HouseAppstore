@@ -34,7 +34,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="72" sectionHeaderHeight="22" sectionFooterHeight="22" id="Dsx-bC-VWW">
-                                <rect key="frame" x="0.0" y="72" width="320" height="388"/>
+                                <rect key="frame" x="0.0" y="68" width="320" height="392"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" white="0.33333333333333331" alpha="0.5" colorSpace="calibratedWhite"/>
@@ -106,9 +106,9 @@
                                     <outlet property="delegate" destination="NEm-Fy-TQH" id="KYo-hM-O5d"/>
                                 </connections>
                             </tableView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="KRD-Ag-swb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo_iPhone.png" id="KRD-Ag-swb">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -126,8 +126,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Default.png" width="768" height="1004"/>
+        <image name="Default.png" width="320" height="460"/>
         <image name="iPhone_download.png" width="20" height="20"/>
+        <image name="logo_iPhone.png" width="320" height="64"/>
     </resources>
     <classes>
         <class className="FLImageView" superclassName="UIImageView">
@@ -144,7 +145,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/downloadCell.h"/>
             <relationships>
                 <relationship kind="outlet" name="downloadBtn" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="img" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="img" candidateClass="FLImageView"/>
                 <relationship kind="outlet" name="manifest" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="subTxt" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="titleTxt" candidateClass="UILabel"/>

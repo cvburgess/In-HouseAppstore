@@ -19,7 +19,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="72" sectionHeaderHeight="22" sectionFooterHeight="22" id="Qsx-Y3-l6w">
-                                <rect key="frame" x="0.0" y="136" width="1024" height="612"/>
+                                <rect key="frame" x="0.0" y="133" width="1024" height="615"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" white="0.33333333333333331" alpha="0.5" colorSpace="calibratedWhite"/>
@@ -150,7 +150,7 @@
             <relationships>
                 <relationship kind="action" name="download:"/>
                 <relationship kind="outlet" name="downloadBtn" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="img" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="img" candidateClass="FLImageView"/>
                 <relationship kind="outlet" name="manifest" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="subTxt" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="titleTxt" candidateClass="UILabel"/>

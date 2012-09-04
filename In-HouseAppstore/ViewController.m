@@ -160,7 +160,7 @@
     }
     else {
         if (UIDeviceOrientationIsLandscape(orientation)) {
-            [bgImg setImage:[UIImage imageNamed:@"bg~iPhone2"]];
+            [bgImg setImage:[UIImage imageNamed:@"iPhone_L"]];
         }
         else if (UIDeviceOrientationIsPortrait(orientation)) {
             [bgImg setImage:[UIImage imageNamed:@"Default"]];
