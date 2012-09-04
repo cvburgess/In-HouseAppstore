@@ -35,7 +35,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    NSString *path = @"http://paradigmpresentations.com/apps/store.plist";
+    //Fetch the .plist that has all of your store data in it... see sample.plist for an example
+    NSString *path = @"http://yoursite.com/apps/store.plist";
     NSURL *url = [NSURL URLWithString:path];
     
     _storeData = [[NSDictionary alloc] initWithContentsOfURL:url];

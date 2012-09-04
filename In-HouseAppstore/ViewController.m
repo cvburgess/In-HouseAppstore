@@ -64,19 +64,30 @@
         cell = [[downloadCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"downloadCell"];
     }
     
-    [cell.titleTxt setText:[app objectForKey:@"title"]];
-    [cell.subTxt setText:[app objectForKey:@"subtitle"]];
-    [cell.manifest setText:[[NSString alloc] initWithFormat:@"itms-services://?action=download-manifest&url=http://paradigmpresentations.com/apps/%@/%@.plist", [app objectForKey:@"id"], [app objectForKey:@"id"]]];
+    
+    //Fetch the app name (title) from the AppDelegate and display it.
+    [cell.titleTxt setText:[app objectForKey:@"appName"]];
+    
+    //Fetch the app description from the AppDelegate and display it.
+    [cell.subTxt setText:[app objectForKey:@"description"]];
+    
+    //Fetch the manifest file (.plist) for the current app and store it in a hidden text field.
+    //The structure used here is http:// yoursite.com/apps/{id}/{id}.plist
+    [cell.manifest setText:[[NSString alloc] initWithFormat:@"itms-services://?action=download-manifest&url=http://yourwebsite.com/apps/%@/%@.plist", [app objectForKey:@"id"], [app objectForKey:@"id"]]];
     
     NSString *imgPath = @"";
     
     if ([UIScreen mainScreen].scale == 2.0)
     {
-        imgPath = [NSString stringWithFormat:@"http://paradigmpresentations.com/apps/%@/gloss@2x.png", [app objectForKey:@"id"]];
+        //Path to the retina version of whatever icon you want to display for the app.
+        //The structure used here is http:// yoursite.com/apps/{id}/polishedIcon@2x.png"
+        imgPath = [NSString stringWithFormat:@"http://yourwebsite.com/apps/%@/polishedIcon@2x.png", [app objectForKey:@"id"]];
     }
     else
     {
-        imgPath = [NSString stringWithFormat:@"http://paradigmpresentations.com/apps/%@/gloss.png", [app objectForKey:@"id"]];
+        //Path to whatever icon you want to display for the app.
+        //The structure used here is http:// yoursite.com/apps/{id}/polishedIcon.png"
+        imgPath = [NSString stringWithFormat:@"http://yourwebsite.com/apps/%@/polishedIcon.png", [app objectForKey:@"id"]];
     }
     
     NSURL *url = [NSURL URLWithString:imgPath];
@@ -84,6 +95,7 @@
     
     [cell setTag:[indexPath row]];
 
+    //If the user has never downloaded the app before...
     if ([bIDs objectForKey:[app objectForKey:@"id"]] == nil)
     {
         if (IS_IPAD)
@@ -95,7 +107,8 @@
             [[cell downloadBtn] setImage:[UIImage imageNamed:@"iPhone_download.png"] forState:UIControlStateNormal];
         }
     }
-    else if ([[bIDs objectForKey:[app objectForKey:@"id"]] floatValue] < [[app objectForKey:@"bundle"] floatValue])
+    //If the user has an outdated version of the app...
+    else if ([[bIDs objectForKey:[app objectForKey:@"id"]] floatValue] < [[app objectForKey:@"version"] floatValue])
     {
         if (IS_IPAD)
         {
@@ -106,7 +119,8 @@
             [[cell downloadBtn] setImage:[UIImage imageNamed:@"iPhone_update.png"] forState:UIControlStateNormal];
         }
     }
-    else if ([[bIDs objectForKey:[app objectForKey:@"id"]] floatValue] == [[app objectForKey:@"bundle"] floatValue])
+    //If the user has the current version of the app...
+    else if ([[bIDs objectForKey:[app objectForKey:@"id"]] floatValue] == [[app objectForKey:@"version"] floatValue])
     {
         if (IS_IPAD)
         {
