@@ -57,6 +57,7 @@
 		303EA45615F5202F00FA872A /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		303EA45815F5204300FA872A /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "../Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		303EA45A15F5207A00FA872A /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "../Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		30635DC815F6760C00B78D49 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		30839BED15F52CCD00434970 /* logo_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_iPad@2x.png"; sourceTree = "<group>"; };
 		30839BEE15F52CCD00434970 /* logo_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_iPad.png; sourceTree = "<group>"; };
 		30839BF515F52F5500434970 /* sample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample.plist; sourceTree = "<group>"; };
@@ -216,6 +217,7 @@
 				308B4BAB15E5885E0062D3AA /* ViewController.h */,
 				308B4BAC15E5885E0062D3AA /* ViewController.m */,
 				30839BF515F52F5500434970 /* sample.plist */,
+				30635DC815F6760C00B78D49 /* README.md */,
 				308B4B9815E5867B0062D3AA /* Supporting Files */,
 			);
 			path = "In-HouseAppstore";
