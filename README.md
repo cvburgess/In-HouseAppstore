@@ -11,7 +11,7 @@
 
 ![][1]
 
- [1]: http://cvburgess.aws.af.cm/wp-content/uploads/2012/09/IH-AppStore.png
+ [1]: http://cvburgess.aws.af.cm/wp-content/uploads/IH-AppStore.png
 
 ## Best Practices
 1. This app is indented for use with the Enterprise iOS program. As a registered enterprise developer you do not need to gather UDIDs or other device information.
